@@ -1,0 +1,10 @@
+{% extends 'base.html' %} {% block contenido %}
+<h1>Datos personales</h1>
+<ul>
+    <li>Número de teléfono: 9901650798</li>
+    <li>Correo electrónico: cantocetinafernandojose@gmail.com</li>
+    <li>Ubicación: Progreso, Yucatán</li>
+    <li>Ocupación: Estudiante en el Tecnológico Nacional de México (TecNM)</li>
+</ul>
+<img src="{{ url_for('static', filename='slide_1.jpg') }}" alt="Mi Imagen">
+{% endblock %}
