@@ -1,0 +1,6 @@
+{% extends 'base.html'%} {% block contenido %}
+<p>Hola tu email es: {{correo}}</p>
+<p>Tu contraseña es: {{password}}</p>
+<p>Bienvenido a la plataforma</p>
+<img src="{{url_for('static', filename='pizarra.jpg')}}", width = "30px", height = "400px"/>;
+{% endblock%}
